@@ -26,6 +26,10 @@
 	
 		<!--  will call setFortuneService --> 
 		<property name = "fortuneService" ref = "myFortune"></property>
+		
+		<!--  inject literal values -->
+		<property name = "emailAddress" value = "shadymasum@gmail.com" />
+		<property name = "team" value = "straw hat pirate" />
 	</bean>
 
 </beans>
