@@ -21,6 +21,12 @@
 		<!-- setup the constructor injection -->
 		<constructor-arg ref = "myFortune" />
 	</bean>
+	
+	<bean id = "myCricketCoach" class = "com.luv2code.springdemo.CricketCoach" >
+	
+		<!--  will call setFortuneService --> 
+		<property name = "fortuneService" ref = "myFortune"></property>
+	</bean>
 
 </beans>
 
