@@ -11,7 +11,7 @@
 
 	<context:component-scan base-package="com.luv2code.springdemo" />
 	
-	<bean id = "myCoach" class = "com.luv2code.springdemo.TrackCoach">
+	<bean id = "myCoach" class = "com.luv2code.springdemo.BaseBallCoach">
 	</bean>
 
 </beans>
